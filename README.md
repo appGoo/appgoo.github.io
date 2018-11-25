@@ -1,6 +1,6 @@
 # appGoo
 
-##A simple introduction
+## A simple introduction
 
 _app: noun_
 short for application - "software application"
@@ -14,13 +14,13 @@ The majority of code sits in file systems and is retrieved to be executed, part 
 
 As the browser-level code is generated dynamically, there is no limit on the design of how that generated code is built, it could be tailored per person or user locale - a much simpler task to achieve with generation through a procedural language rather than programs in the filesystem designed to do the same.
 
-##What is appGoo
+## What is appGoo
 
 appGoo consists of multiple layers - the core layer which is essential for all other appGoo capability is the interpretation within the web server of a request and preparing that request into a database request to be processed. The normal treatment of the web server is to retrieve or execute a file in the filesystem. appGoo changes that concept to instead have the request served by the database. All other appGoo capability is built on top of that core concept.
 
 Just as PHP relies on executable files to exist in the filesystem, appGoo relies on the existence of a database that has functions that process the request. The very first request that potentially could occur is authentication, and this basic requirement is also part of the appGoo core. All other functions within the database are part of subsequent layers of the appGoo development landscape that is documented below.
 
-##appGoo Repos
+## appGoo Repos
 
 appGoo is divided into 2 repositories due to the different technologies impacted. These are:
 
